@@ -6,7 +6,7 @@ enable_testing()
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cmake_demo main.cpp)
+add_executable(cmake_demo main.cpp Person.cpp)
 
 set(CMAKE_TOOLCHAIN_FILE /Users/xiaokyo/Documents/works/cpp-works/vcpkg/scripts/buildsystems/vcpkg.cmake)
 
