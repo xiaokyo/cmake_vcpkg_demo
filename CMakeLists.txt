@@ -6,7 +6,9 @@ enable_testing()
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cmake_demo main.cpp Person.cpp)
+aux_source_directory(./src DIR_SRCS)
+
+add_executable(cmake_demo main.cpp ${DIR_SRCS})
 
 set(CMAKE_TOOLCHAIN_FILE /Users/xiaokyo/Documents/works/cpp-works/vcpkg/scripts/buildsystems/vcpkg.cmake)
 

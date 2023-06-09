@@ -1,7 +1,7 @@
 // #include <iostream>
 #include <crow.h>
 
-#include "Person.h"
+#include "./src/Person.h"
 
 using namespace std;
 
