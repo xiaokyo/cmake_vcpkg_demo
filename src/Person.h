@@ -4,14 +4,15 @@
 #include <iostream>
 
 class Person {
-    public:
-        Person(int page);
-        void print();
+public:
+  Person(int page);
+  ~Person();
+  void print();
 
-        // int get_age();
+  // int get_age();
 
-    private:
-        int age{0};
+private:
+  int age{0};
 };
 
 #endif
