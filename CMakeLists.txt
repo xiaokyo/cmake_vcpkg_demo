@@ -13,6 +13,9 @@ set(CMAKE_CXX_STANDARD 20)
 # 多文件编译路径变量声明
 aux_source_directory(./src DIR_SRCS)
 
+# 添加编译参数
+add_compile_options(-Wno-deprecated-declarations)
+
 # 主文件
 add_executable(cmake_demo main.cpp ${DIR_SRCS})
 
